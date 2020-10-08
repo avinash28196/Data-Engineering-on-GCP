@@ -1,0 +1,12 @@
+filter type: greaterThan col: trip_distance greaterThan: 0 action: Keep
+filter type: lessThan col: fare_amount lessThan: 2.5 action: Delete
+filter type: greaterThan col: pickup_longitude greaterThan: -78 action: Keep
+filter type: lessThan col: pickup_longitude lessThan: -70 action: Keep
+filter type: lessThan col: pickup_latitude lessThan: 45 action: Keep
+filter type: greaterThan col: pickup_latitude greaterThan: 37 action: Keep
+filter type: lessThan col: dropoff_longitude lessThan: -70 action: Keep
+filter type: lessThan col: dropoff_longitude lessThan: -70 action: Keep
+filter type: lessThan col: dropoff_latitude lessThan: 45 action: Keep
+filter type: greaterThan col: dropoff_latitude greaterThan: 37 action: Keep
+groupby group: tolls_amount,fare_amount value: SUM(fare_amount) type: flatAgg
+filter type: lessThan col: passenger_count lessThan: 0 lessThanEqual: true action: Keep
