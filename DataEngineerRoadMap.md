@@ -35,6 +35,3 @@ Huge thank you to [@whydidithavetobebugs](https://github.com/whydidithavetobebug
 
 [datastack.tv](https://datastack.tv/) is the learning platform for the modern data stack. We create concise screencast video tutorials for data engineers. [**Browse our courses here!**](https://datastack.tv/courses.html)
 
-## License 🗞
-
-> Copyright © 2020 Alexandra Abbas — <hello@datastack.tv>
