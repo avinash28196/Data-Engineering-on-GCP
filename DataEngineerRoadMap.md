@@ -31,7 +31,5 @@ Please raise an issue to discuss your suggestions or open a Pull Request to requ
 
 Huge thank you to [@whydidithavetobebugs](https://github.com/whydidithavetobebugs), [@sawidis](https://github.com/sawidis), [@marclamberti](https://github.com/marclamberti) and [@mpyeager](https://github.com/mpyeager) for reviewing this roadmap.
 
-## About us 👋🏼
-
 [datastack.tv](https://datastack.tv/) is the learning platform for the modern data stack. We create concise screencast video tutorials for data engineers. [**Browse our courses here!**](https://datastack.tv/courses.html)
 
